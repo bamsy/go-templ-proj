@@ -26,7 +26,7 @@ This project is a base project using the following technologies:
 - [DaisyUI](https://daisyui.com/)
 - [air](https://github.com/cosmtrek/air) - Hot Reloading
 
-After running the project you will have a logging middleware and a test middle ware that was added to push a static user into context. This users email is then displayed on the ```/user``` endpoint as an example.
+After running the project you will have a logging middleware and a test middle ware that was added to push a static user into context. This users email is then displayed on the ```localhost:8080/user``` endpoint as an example.
 
 ## Notes
 
