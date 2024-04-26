@@ -11,6 +11,7 @@ My base project for using Go, Templ, and HTMX
 
 - Install and setup [air](https://github.com/cosmtrek/air)
 - Install and setup [nodejs](https://nodejs.org/en/download)
+- Install templ cli ```go install github.com/a-h/templ/cmd/templ@latest```
 - run ```npm install```
 - run ```go mod download```
 - run ```air```
