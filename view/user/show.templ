@@ -1,0 +1,18 @@
+package user
+
+import (
+    "github.com/bamsy23/go-templ-proj/view/layout"
+    "github.com/bamsy23/go-templ-proj/model"
+)
+
+templ Show(user model.User) {
+    @layout.Base() {
+        <div class="relative isolate px-6 pt-14 lg:px-8">
+				<div class="text-center">
+					<h1 class="text-4xl">
+                        Hello {user.Email} from the user page
+                    </h1>
+                </div>
+        </div>
+    }
+}

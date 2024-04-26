@@ -1,0 +1,13 @@
+package layout
+
+templ Base() {
+    <html data-theme="dim">
+        <head>
+            <link rel="stylesheet" href="/public/static/styles.css"/>
+            <script src="/public/static/htmx.min.js"></script>
+        </head>
+        <body>
+            <div>{children...}</div>
+        </body>
+    </html>
+}

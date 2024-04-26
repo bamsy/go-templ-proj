@@ -1,0 +1,4 @@
+node_modules/
+static/styles.css
+*templ.go
+tmp/
